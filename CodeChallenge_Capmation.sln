@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{ACD99526-E41D-4B38-8C47-4B1042DBA150}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{2BF44531-5894-42FB-B74B-E492EF55328D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{B0E3C07D-346F-42B3-8420-C81149FEED66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecastApp", "WeatherForecastApp\WeatherForecastApp.csproj", "{6188B491-DE84-4A7A-8D3C-94A1A2EF62E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0E3C07D-346F-42B3-8420-C81149FEED66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E3C07D-346F-42B3-8420-C81149FEED66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E3C07D-346F-42B3-8420-C81149FEED66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E3C07D-346F-42B3-8420-C81149FEED66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6188B491-DE84-4A7A-8D3C-94A1A2EF62E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6188B491-DE84-4A7A-8D3C-94A1A2EF62E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6188B491-DE84-4A7A-8D3C-94A1A2EF62E6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6188B491-DE84-4A7A-8D3C-94A1A2EF62E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6188B491-DE84-4A7A-8D3C-94A1A2EF62E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6188B491-DE84-4A7A-8D3C-94A1A2EF62E6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B0E3C07D-346F-42B3-8420-C81149FEED66} = {ACD99526-E41D-4B38-8C47-4B1042DBA150}
+		{6188B491-DE84-4A7A-8D3C-94A1A2EF62E6} = {2BF44531-5894-42FB-B74B-E492EF55328D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17D8EA13-0AF8-4772-9F62-5BFB785D4606}
+	EndGlobalSection
+EndGlobal
